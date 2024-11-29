@@ -338,8 +338,7 @@ header {
 
 .suporte2-div {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 0.3rem;
 }
 
 .suporte2 {
