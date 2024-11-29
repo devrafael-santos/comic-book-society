@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 main {
   font-family: 'Barlow Condensed', sans-serif;
   background-color: #F1F1F1;
