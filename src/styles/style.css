@@ -338,6 +338,7 @@ header {
 
 .suporte2-div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
