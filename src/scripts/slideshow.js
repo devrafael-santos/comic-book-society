@@ -50,7 +50,7 @@ function showSlides(n) {
     }
 
     slides[slideIndex - 1].style.display = "grid";
-    dots[slideIndex - 1].src = "comic-hook-society/src/img/icons/dot-on.png";
+    dots[slideIndex - 1].src = "comic-book-society/src/img/icons/dot-on.png";
 
 }
 
