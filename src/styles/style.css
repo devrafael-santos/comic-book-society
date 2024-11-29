@@ -332,9 +332,24 @@ header {
   cursor: default;
 }
 
+.suporte2-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .suporte2 {
   font-weight: 500;
   font-size: 1.2rem;
+
+  color: #F1F1F1;
+  text-decoration: underline;
+}
+
+.feedback {
+  font-weight: 500;
+  font-size: 1rem;
 
   color: #F1F1F1;
   text-decoration: underline;
