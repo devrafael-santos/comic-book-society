@@ -1,0 +1,489 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #F1F1F1;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 5rem;
+  background-color: #FC2626;
+}
+
+
+.comic-book-society-1 {
+  height: 100px;
+  width: 100px;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+
+  flex-grow: 1;
+  max-width: 604px;
+  margin: 0 2rem;
+  position: relative;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.search-icon-2 {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+  gap: 1rem;
+}
+
+.topnav a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.topnav img {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem;
+  object-fit: contain;
+}
+
+.topnav .suporte {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#hamburger {
+  display: none;
+}
+
+.fa {
+  color: #000;
+}
+
+.profile-user-1 {
+  text-decoration: none;
+}
+
+.username {
+  font-weight: bold;
+  color: #212529;
+}
+
+
+.recomendados-s-para-voc {
+  font-size: 3.3rem;
+  text-align: center;
+  
+  font-weight: bold;
+  margin: 2rem 0 2rem;
+  cursor: default;
+}
+
+/* Recommended Section Styles */
+.section {
+  padding: 5rem 5rem 2rem 5rem;
+  background-color: #212529;
+}
+
+
+.recomended-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  position: relative;
+
+  margin: 5rem 0 1rem 0;
+}
+
+.recomended-summary img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.9);
+}
+
+.title img:hover, .slide-itens img:hover {
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+
+  padding: 0.5rem 1rem;
+
+  font-size: 1.4rem;
+  color: #F1F1F1;
+  font-weight: 700;
+}
+
+.manga-title {
+  margin-top: 0.5rem;
+  cursor: default;
+}
+
+/* Alert Section Styles */
+.alert-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 4rem;
+  cursor: default;
+}
+
+.alert,
+.alert2,
+.alert3 {
+  display: flex;
+  align-items: center;
+
+  background-color: #FFE492;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  padding: 1rem;
+}
+
+
+.alert img,
+.alert2 img,
+.alert3 img {
+  width: 32px;
+  height: 32px;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.frete-gr-tis-acima-de-r-200-00-span,
+.frete-gr-tis-na-primeira-compra-acima-de-r-100-00-span,
+.parcele-em-at-12-x-sem-juros-span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Logos Section Styles */
+.logostipos-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.logostipos-section img {
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* High Section Styles */
+.section2 {
+  padding: 1rem 5rem 2rem 5rem;
+  background-color: #A7CEFC;
+}
+
+.mais-vendidos {
+  font-size: 3.3rem;
+  text-align: center;
+  
+  font-weight: bold;
+  margin: 0rem 0 3rem 0;
+  cursor: default;
+}
+
+.mySlides {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  position: relative;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.9);
+}
+
+.slide-itens {
+  text-align: center;
+
+  padding: 0.5rem 1rem;
+
+  font-size: 1.4rem;
+  color: #212529;
+
+  font-weight: 700;
+}
+
+.slider-sumary2, .slider-sumary2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.next-button-div,
+.prev-button-div {
+  top: 50%;
+
+  border-radius: 10px;
+  width: 5rem;
+  height: 30rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.next-button-div {
+  right: 1rem;
+
+  background: linear-gradient(270deg,
+      rgba(115, 115, 115, 0.45) 0%,
+      rgba(164, 164, 164, 0.27) 89.99999761581421%,
+      rgba(217, 217, 217, 0) 100%);
+}
+
+.prev-button-div {
+  left: 1rem;
+
+  background: linear-gradient(270deg,
+      rgba(217, 217, 217, 0) 0%,
+      rgba(161, 161, 161, 0.27) 30.000001192092896%,
+      rgba(115, 115, 115, 0.45) 100%);
+}
+
+.next-btn-icon,
+.prev-btn-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.dots-div {
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 6rem;
+  background-color: #FC2626;
+  
+  color: #ffffff;
+  
+  border-top: #212529 solid 0.5rem;
+}
+
+.comic-book-society-12 {
+  height: 6rem;
+  object-fit: contain;
+}
+
+.developers {
+  font-size: 1rem;
+  cursor: default;
+}
+
+.developers-names {
+  font-size: 0.7rem;
+
+  list-style-type: circle;
+  text-align: left;
+  padding-left: 1rem;
+  cursor: default;
+}
+
+.suporte2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+
+  color: #F1F1F1;
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+
+  .section {
+    padding: 2rem 0rem 1rem 0rem;
+  }
+  
+  .dots-div, .prev-button-div, .next-button-div {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 890px) {
+
+
+  .alert-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .logostipos-section {
+    flex-wrap: wrap;
+  }
+
+  .recomendados-s-para-voc, .mais-vendidos {
+    font-size: 2.5rem;
+  }
+
+  .section2 {
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  
+  .mais-vendidos {
+     margin: 0rem 0 1rem 0;
+  }
+
+  .slider {
+    overflow: auto;
+  }
+
+  .slider-sumary1 {
+    width: 1283px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider-sumary2 {
+    width: 3700px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mySlides {
+    display: grid;
+    grid-row: auto;
+    position: relative;
+  }
+  
+  .mySlides img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.9);
+  }
+
+  .manga-title {
+    font-weight: 600;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .comic-book-society-1 {
+    margin-bottom: 1rem;
+  }
+
+  .search-div {
+    width: 100%;
+    margin: 0 0 1rem 0rem;
+  }
+
+  .topnav {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer {
+    padding: 1rem 1rem;
+  }
+
+  .comic-book-society-12 {
+    margin-bottom: 1rem;
+  }
+  
+}
