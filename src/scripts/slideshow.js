@@ -4,7 +4,6 @@ let slides = document.getElementsByClassName("mySlides");
 
 if (this.screen.width <= 890) {
     for (i = 0; i < slides.length; i++) {
-        console.log(this.screen.width);
         slides[i].style = "none";
     }
 } else {
@@ -15,7 +14,6 @@ if (this.screen.width <= 890) {
 window.addEventListener("resize", function () {
     if (this.screen.width <= 890) {
         for (i = 0; i < slides.length; i++) {
-            console.log(this.screen.width);
             slides[i].style = "none";
         }
     } else {
@@ -46,10 +44,10 @@ function showSlides(n) {
     }
 
     for (i = 0; i < dots.length; i++) {
-        dots[i].src = "/comic-book-society/src/img/icons/dot-off.png";
+        dots[i].src = "/src/img/icons/dot-off.png";
     }
 
     slides[slideIndex - 1].style.display = "grid";
-    dots[slideIndex - 1].src = "/comic-book-society/src/img/icons/dot-on.png";
+    dots[slideIndex - 1].src = "/src/img/icons/dot-on.png";
 
 }
