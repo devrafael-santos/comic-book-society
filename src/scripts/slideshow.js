@@ -44,7 +44,7 @@ function showSlides(n) {
     }
 
     for (i = 0; i < dots.length; i++) {
-        dots[i].src = "/comic-book-society/src/img/icons/dot-off.png";
+        dots[i].src = "/comic-book-society/src/img/icons/dot-off.png"; 
     }
 
     slides[slideIndex - 1].style.display = "grid";
